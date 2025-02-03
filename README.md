@@ -43,11 +43,15 @@ Ensure you have Python 3 installed on your system.
 ## Usage
 You can run the script directly from the command line. The available arguments are:
 
-•  -i, --input: Specify a text file with words (one per line).
-•  -w, --write: Provide words manually, separated by the pipe character (|).
-•  -o, --output: Define the output filename (default is derived from the input filename or custom_wordlist.txt).
-•  --max-num: Set the maximum numeric suffix to append (default is 1000).
-•  --no-numeric: Disable numeric suffix generation.
+  -i, --input: Specify a text file with words (one per line).
+
+  -w, --write: Provide words manually, separated by the pipe character (|).
+
+  -o, --output: Define the output filename (default is derived from the input filename or custom_wordlist.txt).
+
+  --max-num: Set the maximum numeric suffix to append (default is 1000).
+
+  --no-numeric: Disable numeric suffix generation.
 
 ## Examples
 
@@ -66,21 +70,13 @@ Generate a wordlist without numeric suffixes:
 
 ## How It Works
 
-- **Normalization:**
+- **Normalization:** Each input word is normalized by removing accents and special characters.
 
-Each input word is normalized by removing accents and special characters.
+- **Character Substitutions:** The script applies a set of predefined substitutions to each normalized word, creating alternative representations.
 
-- **Character Substitutions:**
+- **Variant Generation:** Multiple case variations are generated for each word, including uppercase, lowercase, capitalize, title, and swapcase forms.
 
-The script applies a set of predefined substitutions to each normalized word, creating alternative representations.
-
-- **Variant Generation:**
-
-Multiple case variations are generated for each word, including uppercase, lowercase, capitalize, title, and swapcase forms.
-
-- **Numeric Suffixes:**
-
-For each variant, numeric suffixes (e.g., the current year, sequential numbers, and versions with an "@" symbol) are appended unless disabled by the user.
+- **Numeric Suffixes:** For each variant, numeric suffixes (e.g., the current year, sequential numbers, and versions with an "@" symbol) are appended unless disabled by the user.
 
 ## Logging
 The script utilizes Python’s logging module to provide detailed output on the process and error messages, making it easier to debug and track the generation process.
