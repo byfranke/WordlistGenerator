@@ -38,20 +38,20 @@ or
 Python3 WordlistGenerator.py
 ```
 
-Ensure you have Python 3 installed on your system.
+Ensure you have `Python 3` installed on your system.
 
 ## Usage
 You can run the script directly from the command line. The available arguments are:
 
-- **-i, --input:** Specify a text file with words (one per line).
+- **`-i`, `--input`:** Specify a text file with words (one per line).
 
-- **-w, --write:** Provide words manually, separated by the pipe character (|).
+- **`-w`, `--write`:** Provide words manually, separated by the pipe character (|).
 
-- **-o, --output:** Define the output filename (default is derived from the input filename or custom_wordlist.txt).
+- **`-o`, `--output`:** Define the output filename (default is derived from the input filename or custom_wordlist.txt).
 
-- **--max-num:** Set the maximum numeric suffix to append (default is 1000).
+- **`--max-num`:** Set the maximum numeric suffix to append (default is 1000).
 
-- **--no-numeric:** Disable numeric suffix generation.
+- **`--no-numeric`:** Disable numeric suffix generation.
 
 ## Examples
 
