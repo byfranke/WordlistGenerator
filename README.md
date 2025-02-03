@@ -57,15 +57,15 @@ You can run the script directly from the command line. The available arguments a
 
 Generate a wordlist from an input file:
 ```bash
-./wordlist_generator.py -i input.txt -o my_wordlist.txt
+./WordlistGenerator.py -i input.txt -o my_wordlist.txt
 ```
 Generate a wordlist from manually provided words:
 ```bash
-./wordlist_generator.py -w "password|admin|user" --max-num 500
+./WordlistGenerator.py -w "password|admin|user" --max-num 500
 ```
 Generate a wordlist without numeric suffixes:
 ```bash
-./wordlist_generator.py -w "example|test" --no-numeric
+./WordlistGenerator.py -w "example|test" --no-numeric
 ```
 
 ## How It Works
