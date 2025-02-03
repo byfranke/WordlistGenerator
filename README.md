@@ -22,7 +22,7 @@ Wordlist Generator is a Python script that generates customized wordlists based 
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/yourusername/WordlistGenerator.git
+git clone https://github.com/byfranke/WordlistGenerator
 ```
 ```bash
 cd WordlistGenerator
