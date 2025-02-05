@@ -22,20 +22,20 @@ Wordlist Generator is a Python script that generates customized wordlists based 
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/byfranke/WordlistGenerator
+git clone https://github.com/byfranke/wordlistgenerator
 ```
 ```bash
-cd WordlistGenerator
+cd wordlistgenerator
 ```
 ```bash
-chmod +x WordlistGenerator.py
+chmod +x setup.sh
 ```
 ```bash
-./WordlistGenerator.py
+bashu ./setup.sh
 ```
 or 
 ```bash
-Python3 WordlistGenerator.py
+Python3 wordlistgenerator.py
 ```
 
 Ensure you have `Python 3` installed on your system.
@@ -57,15 +57,15 @@ You can run the script directly from the command line. The available arguments a
 
 Generate a wordlist from an input file:
 ```bash
-./WordlistGenerator.py -i input.txt -o my_wordlist.txt
+wordlistgenerator -i input.txt -o my_wordlist.txt
 ```
 Generate a wordlist from manually provided words:
 ```bash
-./WordlistGenerator.py -w "password|admin|user" --max-num 500
+wordlistgenerator -w "password|admin|user" --max-num 500
 ```
 Generate a wordlist without numeric suffixes:
 ```bash
-./WordlistGenerator.py -w "example|test" --no-numeric
+wordlistgenerator -w "example|test" --no-numeric
 ```
 
 ## How It Works
@@ -86,11 +86,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests if y
 
 ## Disclaimer
 This tool is designed for educational and testing purposes only. The creator strictly discourages and disclaims any responsibility for its use in unauthorized or malicious activities. Always obtain explicit permission before deploying this tool in any environment.
-
-## Donations
-If you find these tools useful and would like to support ongoing development and maintenance, please consider making a donation. Your contribution helps ensure that these tools are regularly updated and improved, benefiting the cybersecurity community. Any amount is greatly appreciated and will make a significant difference in supporting this project. Thank you for considering supporting this work!
-
-- **Address Bitcoin:**
-```bash
-bc1qkdh3eqpj87q5hlhc7pvm025hmsd9zp2kadxf76
-```
