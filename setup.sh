@@ -1,3 +1,3 @@
-sudo chmod +x WordlistGenerator.py
-sudo cp WordlistGenerator.py wordlistgenerator
+sudo chmod +x wordlistgenerator.py
+sudo cp wordlistgenerator.py wordlistgenerator
 sudo cp wordlistgenerator /usr/bin
