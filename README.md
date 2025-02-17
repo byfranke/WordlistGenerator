@@ -31,7 +31,7 @@ cd wordlistgenerator
 chmod +x setup.sh
 ```
 ```bash
-bashu ./setup.sh
+bash ./setup.sh
 ```
 or 
 ```bash
